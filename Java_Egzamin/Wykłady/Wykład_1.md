@@ -25,7 +25,7 @@ String, PrintStream, ... (wszystko inne).
 
 ### Przepływy sterowania - Instrukcje warunkowe
 __if/else__ - sprawdzanie po kolei linijek kodu, wiadomo. Jeżeli w drabinie warunków coś bedzie w środku prawdziwe to kończy kompilowanie funkcji, tylko jeden blok bedzie uruchomiony. </br></br>
-__switch__ - wykonanie danego bloku, może być ich więcej, tym się właśnie różni switch od if/else. </br>
+__switch__ - wykonanie danego bloku, może być ich więcej, tym się właśnie różni switch od if/else. Od Javy 7/8 możliwe jest wprowadzeniu argumentu typu String w switchu.</br>
 ### Przepływy sterowania - Pętle
 __for__ - pętla która iteruje po danym argumencie.</br>
 __while__ - Jeżeli jakiś warunek jest spełniony to wykonaj instrukcje.</br>

@@ -1,0 +1,1 @@
+# Typy generyczne

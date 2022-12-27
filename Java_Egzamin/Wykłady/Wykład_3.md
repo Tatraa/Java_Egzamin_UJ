@@ -1,0 +1,1 @@
+# Wyjątki, Kolekcje
