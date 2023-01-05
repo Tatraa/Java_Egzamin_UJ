@@ -11,7 +11,7 @@ __protected__ - dostępny tylko w danej klasie, klasach potomnych i klasach z te
 __private__ - dostępny tylko dla metod danej klasy
 
 Konstruktor jest automatycznie generowany, nawet kiedy go nie ma, może nie mieć w środku nic, może być ich nieskończoność.
-![img.png](img.png) </br>
+![img.png](src/img.png) </br>
 
 Uruchomiamy program wpisując w terminal podaną komende: `java pakiet.podpakiet.Klasa`, gdzie `Klasa.class` musi sie znajdować w podkatalogu `./pakiet/podpakiet/` </br>
 
