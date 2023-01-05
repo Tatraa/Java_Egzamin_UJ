@@ -25,7 +25,7 @@ Najczęściej JNI wykorzystuje się do realizacji niskopoziomowych komunikacji I
 
 ### Program w Javie:
 
-```
+```javascript
 public class JNIHello {
     static {
         System.loadLibrary("hello"); // nazwa biblioteki z kodem
@@ -48,7 +48,7 @@ Generowanie plików nagłówkowych dla metod natywnych: `javah JNIHello`
 Do generowania uużywamy skompilowanego pliku z rozszerzeniem `class`
 
 #### Implementacja
-```
+```javascript
 #include “JNIHello.h”
 #include <stdio.h>
 JNIEXPORT void JNICALL Java_JNIHello_sayHello(JNIEnv *env, jobject obj){
@@ -77,7 +77,7 @@ JNI definijue następujące typy natywne:
 
 Wywołanie typów prymitywnych można zrobić w następujący sposób:
 
-```java
+```javascript
 private native double add(double d1, double d2);
 
 public static void main(String[] args){
@@ -95,7 +95,7 @@ jdouble d1, jdouble d2){
 
 Zaimplementowanie tablic można zrobić w następujący sposób:
 
-```java
+```javascript
 private native int[] swap(int[] numbers);
 ...
     int[] in = {1,2};
