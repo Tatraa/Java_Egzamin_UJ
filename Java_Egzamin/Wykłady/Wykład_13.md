@@ -73,3 +73,52 @@ JNI definijue następujące typy natywne:
 - jobject, jclass, jstring, jthrowable
 - jarray (jintArray, jbyteArray ...)
 
+### Typy prymitywne:
+
+Wywołanie typów prymitywnych można zrobić w następujący sposób:
+
+```java
+private native double add(double d1, double d2);
+
+public static void main(String[] args){
+    JNIExamples ex = new JNIExamples();
+    System.out.println(ex.add(12.5, 5.3));
+}
+JNIEXPORT jdouble JNICALL Java_JNIExamples_add(JNIEnv *env, jobject obj,
+jdouble d1, jdouble d2){
+    printf("Otrzymade argumenty %f; %f \n",d1, d2);
+    jdouble res = d1 + d2;
+    return res;
+}
+```
+### Tablice:
+
+Zaimplementowanie tablic można zrobić w następujący sposób:
+
+```java
+private native int[] swap(int[] numbers);
+...
+    int[] in = {1,2};
+    int[] out = ex.swap(in);
+    for(int i: out)
+        System.out.println(i);
+...
+JNIEXPORT jintArray JNICALL Java_JNIExamples_swap(JNIEnv *env,
+jobject obj, jintArray ia){
+    jint *inArray = (*env)->GetIntArrayElements(env, ia, NULL);
+    if (NULL == inArray) return NULL;
+    jint outArray[] = {inArray[1], inArray[0]}; // dzialanie
+    (*env)->ReleaseIntArrayElements(env, ia, inArray, 0); // zwolnienie
+    jintArray out = (*env)->NewIntArray(env, 2); // wynik
+    if (NULL == out) return NULL;
+    (*env)->SetIntArrayRegion(env, out, 0 , 2, outArray); // kopiowanie
+    return out;
+}
+```
+
+### Inne możliwości:
+
+- zmianazmiennych statycznych
+- wywoływanie metod kodu natywnego
+- tworzenie obiektów Javy (i tablic) w kodzie natywnym
+- zarządzanie referencjami
