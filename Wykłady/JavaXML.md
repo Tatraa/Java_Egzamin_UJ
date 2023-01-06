@@ -110,6 +110,55 @@ transformer.transform(source, result);
 
 ### SAX
 
+SAX w miarę czytania dokumentu wywołuje zdarzenia związane z parsowaniem. Parsery SAX są szybsze i nie wymagają tak dużej ilości pamięci jak DOM.
+
+Dom jest bardzo wygodny, ale żeby to drzewo powstało to trzeba przeczytać cały dokument XML, co zabiera dużo miejsca w pamięci i czasu. 
+
+Sax nie potrzebuje dużo pamięci bo czyta na bieżąco, ale wadą jest to że czyta sekwencyjnie, nie wie co było przed i co będzie po, jak przeczyta to nie wrócimy.
+
+```javascript
+import java.io.IOException;
+import java.net.URL;
+import javax.xml.parsers.*;
+import org.xml.sax.*;
+public class SAXExample {
+    public static void main(String[] args) throws SAXException,
+                                IOException, ParserConfigurationException{
+        URL url = new URL("http://www.uj.edu.pl/...");
+        SAXParserFactory f = SAXParserFactory.newInstance();
+        SAXParser saxParser = f.newSAXParser();
+        DefaultHandler handler = new ExampleSAXHandler();   //sami napisaliśmy tę klasę, rozszerza DefaultHandlera
+        saxParser.parse(url.openStream(), handler);
+    }
+}
+```
+
+### DefaultHandler
+
+`DefoultHandler` ma parę ważnych metod:
+
+![img.png](src/1.png)
+
+```javascript
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
+
+class ExampleSAXHandler extends DefaultHandler {
+    public void startElement(String uri, String localName, String qName,
+                                Attributes attributes) throws SAXException {
+        System.out.println("Element :" + qName);
+    }
+    public void endElement(String uri, String localName, String qName)
+                                throws SAXException {
+        System.out.println("Konie elementu :" + qName);
+    }
+    public void characters(char ch[], int start, int length)
+                                throws SAXException {
+        System.out.println("zawartosc : "+new String(ch, start, length));
+    }
+}
+```
 ### JAXB
 
 __Java Architecture for XML Binding__ - Jest to specyfikacja wchodząca w skład Javy SE pozwalająca na manipulację dokumentami XML. JAXB definiuje zestaw adnotacji, które pozwalają na konfigurację mapowania obiektów Javy. Dzięki takiemu podejściu jest to specyfikacja nieinwazyjna i mogąca być zastosowana do już istniejących, zwykłych klas POJO bez ingenerncji w ich kod.
@@ -197,3 +246,4 @@ Ant jest narzędziem umożliwiającym automatyzację procesów związanych z bud
 Aby wykonać 'Anta' należy wpisać w konsoli polecenie `ant`
 
 Różnica między C++owym Make'iem jest taka, że `Make` dotyczy opisywania zależności między plikami i sposobu budowania plików. `Ant` dotyczy zależności mięzy 'zadaniami' i jest bardziej sposobem na sklejanie ze sobą skryptów budujących
+
