@@ -36,3 +36,34 @@ w interfejsie `java.util.Collection`.
 Więcej można przeczytać na: </br>
 http://docs.oracle.com/javase/7/docs/api/java/util/Collection.html
 
+##### Przykładowe klasy rozszerzające:
+
+ArrayList, HashSet, LinkedList, Stack, Vector, PriorityQueue, TreeSet
+
+##### Przykłądowe interfejsy rozszerzające:
+
+List, SortedSet, Set, Queue, Deque
+
+__Vector__ - w rzeczywistości to dynamiczna tablica, której rozmiar jest automatycznie dostosowany do ilości danych.
+
+### Cloneable
+
+Interfejs który informuje, że nasz obiekt wspiera klonowanie. Bazowana metoda `clone()` jest zaimplementowana w klasie `Object` (protected) ale trzeba ją nadpisać (public synchronized)
+
+### HashTable
+
+Tablica haszująca to kolekcja (mapa) zawierająca pary (klucz, wartość). Zarówno klucz jak i wartość mogą być dowolnymi obiektami.
+
+### Properties
+
+Rozszerzenie tablicy haszującej:
+```javascript
+public class Properties extends Hashtable<Object, Object>;
+```
+Nastawiony na przechowywanie Stringów
+```javascript
+public synchronized Object setProperty(String key, String value);
+public String getProperty(String key);
+```
+
+
