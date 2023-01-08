@@ -426,3 +426,15 @@ stmt.executeUpdate("INSERT INTO table(name, price) VALUE 'ser', 2.0");
 ```
 W ramach jednego obiektu Statement można wykonać sekwencyjnie kilka zapytań. Po zakończeniu używania obiektu zaleca się wywołanie metody close().
 
+### 36. XML, jak dostać root
+
+```javascript
+Document doc = dBuilder.parse(url.openStream());
+Sout("Root element:" + doc.getDocumrntElement().getNodeNome());
+```
+
+### 37. Locale:
+
+Obiekt `Locale` reprezentuje określony region geograficzny, polityczny lub kulturowy. Operacja, która wymaga ustawień regionalnych do wykonania swojego zadania, jest nazywana wrażliwą na ustawienia regionalne i wykorzystuje je do dostosowania informacji dla użytkownika. Na przykład wyświetlenie numeru jest operacją wrażliwą na ustawienia reginalne - numer powinien być sformatowany zgodnie ze zwyczajami i konwencjami kraju, regionu lub kultury ojczystego użytkownika.
+
+Czyli na przykład `Locale.US` używa kropek zamiast przecinków gdy mowa o ułamkach
