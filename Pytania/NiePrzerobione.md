@@ -62,3 +62,32 @@
 - Co to Scanner i jak napisać
 - URL i URLConnection, metody łączenia się po URL i do czego można się łączyć
 - napisać klasę i metodę refleksyjnie. Do metody przekazać argument "Hello"
+
+- LayoutManager
+- throws
+- JDBC, omówić sposoby połączenia z bazą danych
+- Resource Bundle, 
+- JFileChooser,
+
+- jak uzyskać referencje do obiektu Class (Class c = (...))
+
+- HashTable
+- Socket i ServerSocket, co je używa, co przyjmują, .connect(), co się dzieje jak nic się nie połączy i close()
+- jak uzyskać referencje do obiektu Class
+
+- Typy generyczne, typ surowe
+- Notify i wait
+- Wszystko o Ant
+
+- ResourceBundle + kod
+- porównać i opisać JTextArea i JEditorPane
+- jak uzyskać referencje do obiektu Class
+
+- wszystko o HashTable, jakie ma metody, jak pozyskać element
+- Socket i ServerSocket jak działa, w jaki sposób nawiązują połączenie, co mają w środku, w jaki sposób przekazują dane
+- sax i defaulthandler, co to defaulthandler, w jaki sposób obsłużyć konkretną rzecz z XML za pomocą defaulthandlera
+- (dodatkowe na zdanie)napisał kod z użyciem wildcarda i zapytał czy lista.put(0, obj) się wykona i dlaczego nie
+
+-  Collection, przykłady interfejsów rozszerzających. Vector opis metod. Metody wspólne w collection. 
+- Tworzenie procesów. Co zwraca Runtime.getRuntime().exec, co pobiera w argumencie.
+- ClassLoader, struktura pliku .class XD
