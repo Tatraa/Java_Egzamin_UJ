@@ -65,5 +65,5 @@ Nastawiony na przechowywanie Stringów
 public synchronized Object setProperty(String key, String value);
 public String getProperty(String key);
 ```
-![img.png](src/4.png)
+![img.png](src/4.png) 
 
