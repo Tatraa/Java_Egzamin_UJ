@@ -1,5 +1,39 @@
 # Nie przerobione
 
+-  Certyfikat SSH
+-  co decyduje o sposobie
+   parsowania, można wywołać na nim
+   takie metody
+-  Co to są Refleksja opisz Field
+-  Dziedziczenie Typów
+   Generycznych hierarchia
+- Porównać wydajność Kolekcji
+-  Omówić Wait() Notify() notify()
+-  Napisz kod który wypisze źródło
+   HTML Strony
+-  Co to jest Jar po co i gdzie sie go
+   używa, co to jest manifest i o co w
+   nim chodzi jaka jest jego struktura
+- Refleksje
+-  Wszystko o Properties gdzie
+   oprócz wykładu o kolekcjach sie
+   pojawiło (przy ResourceBundle)
+-  Krótko o instrukcjach
+   warunkowych
+- Typy Proste w Java
+-  Co robi metoda t.join() dla t
+   będącego instancją klasy Thread
+-  Jak utworzyć nową instancję
+   klasy bez używania słówka new
+-  Przykłady strumieni binarnych
+-  Co to interfejs
+-  Co wiesz o klasie abstrakcyjnej
+-  Co to jest ConstantPool
+- Do czego służy blok finally
+-  Skróty JDK,JRE,JVM
+-  Jak skopiować zawartość obiektu
+-  Opisz klasę Vector
+-  Połączenie z bazą danych
 - słowo kluczowe static, czy można w niestatycznych metodach skorzystać ze statycznych zmiennych/metod?
 - wait(), notify(), notifyAll(), co dokładnie robi notifyAll, skąd notifyAll wie które wątki wybudzić (tutaj trochę się zagmatwałem więc warto faktycznie wiedzieć co dokładnie robi)
 - jak w bazie danych otrzymać dany wynik, rezultat? (ResultSet)
