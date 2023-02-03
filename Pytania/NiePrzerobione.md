@@ -125,3 +125,6 @@
 -  Collection, przykłady interfejsów rozszerzających. Vector opis metod. Metody wspólne w collection. 
 - Tworzenie procesów. Co zwraca Runtime.getRuntime().exec, co pobiera w argumencie.
 - ClassLoader, struktura pliku .class XD
+- Napisać kod dla przepisania danych z jednego pliku w inny
+- Contenery, Componenty  
+- Programowanie Funkcyjne
