@@ -128,3 +128,24 @@
 - Napisać kod dla przepisania danych z jednego pliku w inny
 - Contenery, Componenty  
 - Programowanie Funkcyjne
+- Klasy abstrakcyjne, co to jest, do czego służy, przykład
+- Java Web Start, co robi i jak
+- Pytanie dot. wypisania tablicy za pomocą przetwarzania strumieni i funkcji, czym jest java.util.Function, co zawiera, jakie ma metody
+- Serializable, jak użyć
+- Execute, jak zainicjować, jak uruchomić wątek
+-  Bajtkod, jak uruchomić metode
+- stworzyc serwer echo
+- roznice miedzy vector i hashtable
+- resultset
+- EchoServer
+- ResultSet
+- Proces
+- metody wieloargumentowe
+- JTextArea
+-  (x, y) -> x * y; co to jest  (samo stwierdzenie że Function nie wystarczyło, albowiem chodziło o Bifunction)
+- prosze napisac serwer ktory po nawiazaniu polaczenia z klientem napisze mu hello i sie zamknie
+- sposoby nawiązywania polaczenia z baza danych i konkretnie jak to zrobic za pomoca drivermanagera
+- czym sa interfejsy, wszystko co o nich wiesz i wymień tyle ile ich pamietasz
+- napisać program który gzipem ztaruje plik tekstowy
+- layout manager - co to, rodzaje, czy jframe ma defaultowego mangera
+- co to statement (to interfejs a nie klasa), skąd go pobieramy, jak go używać (np. executeQuery)
