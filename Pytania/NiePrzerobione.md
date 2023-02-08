@@ -149,3 +149,96 @@
 - napisać program który gzipem ztaruje plik tekstowy
 - layout manager - co to, rodzaje, czy jframe ma defaultowego mangera
 - co to statement (to interfejs a nie klasa), skąd go pobieramy, jak go używać (np. executeQuery)
+- Serializable, co to i kazał jakoś użyć jak nie byłem pewien ale na dobrej drodze
+- Co robi join, później dopytał czym się to różni od tego jakbym normalnie zakończył wątek returnem
+   jak nie wiedziałem to kazał czytać dokumentację xdd
+- nie wiedziałem i nawet nie pamiętam czego XDD
+- Program napisz JButton i wyświetl w okienku
+- Jar
+- Zapis dokumentu w DOM
+- Napisz JFileChooser, który wyświetli zawartość pliku, który wybierze użytkownik 
+- JavaDoc 
+- XmlEncoder i XmlDecoder
+- (ratunkowe) Napisać w jednej linijce JOptionPane, który wyświetli Hello i będzie miał przycisk OK
+- Opisac jak wyglada proces serializacji
+- Tworzenie procesu*
+- Co oznaczają 4 pierwsze bajty w kazdej z klas w javie
+- Napisać metodę która korzysta z typu generycznego w klasie, która z niego nie korzysta 
+- Słówko volatile, gdzie się używa + czy można używać poza wątkiem
+- Wszystko o strumieniach bajtowych i znakowych, ich klasy itp.
+- cloneable. Jak działa, kiedy trzeba napisać swój - przykład
+- Struktura pliku class i co się w tym pliku znajduje
+- Napisz program, który stworzy 5 wątków, każdy z nich wypisze inną literę -mamy 2 wektory:
+   Vector vecraw=new Vector
+   Vector<Object> vecobj = new Vector
+   porównaj, opisz jak działają 
+- napisz w jednej linijce program, który wypisze za pomocą strumieni wszystkie elementy vecobj z poprzedniego pytania
+- Volatile - czym jest, gdzie się używa, co robi
+- Napisz program wysyłający na serwer wiadomość "hello" (Socket)
+- Predykat - czym jest itp itd, potem przeszedł na temat Function i kazał napisać przykładową funkcję
+- strumienie bajtowe i znakowe (opisać i porównać)
+- wszystko co wiesz o ANT
+- porównać i opisać vector i hashtable (generalnie powiedzieć wszystko co się wie na ich temat)
+- Posortować wektor po długości stringów, z uzyciem comparable 
+- Jak działa metoda accept w klasie Socket(nie ma jej)
+- Co to jest supplier i consumer w programowaniu funkcyjnym 
+- (pomocnicze).co znajduje się w java. util.funtion
+- Posortować wektor po długości stringów, z uzyciem comparable
+- Co robi accept w Socket (w socket nie ma accept)
+- Czym są Supplier i Consumer
+- Napisac clonable klase
+- Classloader
+- ResultSet
+- Wypisać Properties do pliku
+- ExecutorService i co zwraca metoda submit
+- Invocation handler
+- Napisać klasę z int i Vector potem sklonować
+- ResultSet
+- ClassLoader
+- Napisać program który jako pierwszy argument wywołania programu podaje nazwę pliku
+     a następne argumenty to dane które chcemy zapisać do tego pliku
+- Czy jest możliwe by utworzony w javie proces czekał? Jeśli tak to jak to zrobić.
+   Jak stworzyć proces w javie.
+- HSQLDB
+- Jak możemy pobierać dane użytkownika z klawiatury.
+- Co to jest ANT i budowa pliku XML
+- Wypisać refleksyjnie metody klasy Object
+- program taki ze pobiera dane z klawiatury i zapisuje do pliku
+- synchronized w wątkach, co to, jak uzywac
+- SAX Parser- co to, opisać po kolei parsowanie + czym jest DefaultHadler i jak się z niego korzysta
+- czym się różni throw od throws
+- napisać aplikacje okienkową z dwoma JButtonami które reagują na kliknięcia
+- co to unary operator
+- Jak możemy pobierać dane użytkownika z klawiatury.
+- Co to jest ANT i budowa pliku XML
+- Wypisać refleksyjnie metody klasy Object
+- Wypisać Properties do pliku
+- ExecutorService i co zwraca metoda submit
+- Invocation handler
+-  Napisać program, który czyta tekst ze standardowego wejścia i wyświetla go w polu tekstowym w nowym okienku (czyli Swing).
+- Serializacja - po co (jakich metod używamy jak chcemy użyć własnej implementacji). Jak potem zapisujemy klasę, która spełnia wymagania?
+- Co to jest HSQLD? Czym się różni od innych? Jaki tryb jest użyteczny (chodziło oczywiście o Stand Alone)?
+- Interfejs Comparable
+- URL, URLConnection; różnice i jak odbierac dane z serwera.
+- Bytecode, plik .class
+- Interfejs Serializable
+- JTextArea i JEditorPane (różnice, podobieństwa)
+- Czym jest tryb stand-alone w bazach HSQLDB
+- JAXB mocno dopytywał o marshaller
+- Zrobić przycisk i pole tekstowe swing
+- Kolekcje, opisać wektor
+- Swing, pole do wpisywania tekstu i pod nim przycisk. Gdy klikniemy w przycisk to wypisuje w konsoli ten tekst.
+- JAXB, marshaller, metody, inicjalizacja kontekstu
+- Kolekcje z naciskiem na te z wykładu, kazał mi opisać TreeMap, złożoności, co jest lepsze w porównaniu z ArrayList a co gorsze
+-  Napisać serwer, który wysyła "Hello" do klienta
+-  Co znaczy (x,y)->x+y; i co tam trzeba dopisać, żeby się skomplikowało
+- Napisać serwer TCP
+- Czym są metody pomostowe 
+- Jak załadować klasę z tablicy bajtów (ClassLoader::defineClass)
+- Napisać jakąś kolekcje np. hashmape i posortować klucze alfabetycznie
+- ExecutorService na czym polega.
+- DOM jak używać i coś o Sax
+  (Pomocnicze) napisać metodę Main() refleksyjnie
+- Cloneable
+- Co robi metoda pack()
+- Predicate
