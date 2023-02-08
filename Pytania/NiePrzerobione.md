@@ -241,4 +241,4 @@
   (Pomocnicze) napisać metodę Main() refleksyjnie
 - Cloneable
 - Co robi metoda pack()
-- Predicate
+- Predicate 
