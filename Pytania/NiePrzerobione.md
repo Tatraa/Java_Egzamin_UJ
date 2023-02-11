@@ -242,3 +242,79 @@
 - Cloneable
 - Co robi metoda pack()
 - Predicate
+- Cloneable
+- Serwer SSL
+- Dynamic Proxy (czego potrzebujemy do utworzenia)
+- Napisać program z JFileChooser, który wybierze plik i wpisze do niego „Hello”
+- Napisać metodę generyczną
+- SSL serwer
+- Napisać serializable, które przekaże  do pliku Vector oraz int
+- Swing okienko z przyciskiem, który wyświetla okienki z napisem Hello i przyciskiem ok (JOptionPane)
+- Czy można stworzyć taka zwykla tablice List
+- Ogolnie o ASM
+- Napisać okienko z 3 JButtonami pod sobą
+- JAXB
+- Javadoc, zrobić dokumentację programu wyżej
+- Posortować arrayList według długości stringów,  deadLock, function
+- Kolekcje
+- ForkJoinPool
+- Różnica arraylist i hashSet - kiedy której bym użył, jakie są różnice, krótki opis też (mówcie wszystko co wiecie mi dał dodatkowe pkt za złożoności operacji na nich)
+- ForkJoinPoo co trzeba żeby swój algorytm na tym odpalić
+- Napisać strumień filtrujący, niby był na wykładzie taki sam xd
+- Co to interfejs, opisać i jakie znasz interfejsy + jak interfejs wygląda w c++v
+- "Skoro wymienił pan ResultSet, to proszę opisać interfejs Statement" + dlaczego statement to interfejs, a nie klasa abstrakcyjna
+- Napisać okienko z przyciskiem, jak naciśnie się przycisk to ma wyskoczyć okno z "hello" i przyciskiem który powoduje zamknięcie tego drugiego okna (drugie okno to chodziło o JOptionPane message dialog)
+-  Hash table vs hashset. Stworzyć i wypisać elementy.
+- Ant 
+- WebStart
+- Ratunkowe zrobić, żeby sie kompilowalo : b = x->x+1
+- Otworzyć plik"args[0]", skompresować GZipem do "args[0]+.gz" (Zamykać strumień!)
+- WebStart
+- Ant
+- Wyjątki, throw / throws
+- Serwer który do klienta wysyła hell
+- Sposoby łączenia z bazą danych
+- Otworzyć plik, przeczytać zawartość i skompresować do gzipa
+-  URL Connection, jak uzyskać, jakie protokoły obsługuje 
+- Jak uzyskać instancję klasy Class, co z typami prymitywnymi i tablicami typów prymitywnych
+- Strumienie kompresujące ZIP
+- 3 JButtony pionowo
+- Jaxb
+-  Server ktory przesyla do klienta "Hello"
+- rożnice pomiędzy HashTable a Properties
+- o łączeniu sie z bazą danych pytał o dwie metody
+- Refleksja - program który wpisze metody klasy OutputStream
+-  Executory
+- Serializacja
+- Interfejs Serializable, co to serializacja, jakie metody się do tego stosuje.
+- Wątki, jak działa wait() i t.join()
+- Napisać program, który wysyła zapytanie do bazy danych i odbiera wyniki
+- Napisz kłase, wpisz w nią int i arraylist, następnie ją zesrializuj
+- swing pack()
+- Jak dostać instancje klasy z bytecodu (classloader itd)
+- Interfejs Clonable
+- Napisz serwer Hello
+-  Proxy
+- wildcard
+- jfilechooser wybranie pliku i wypisanie do niego hello
+- Metody połączenia z bazą danyc
+- Generyki
+- Jfilechooser i wpisanie hello
+- Wypytywał o sax i dom :sadeg:
+- strumienie danych
+- serwer ssh
+- Hashmap vs Hashtable, podobieństwa i różnice
+- Kod w swingu , 3 pola tekstowe pod sobą
+- DOM,jak pobrać elementy, co zwraca getElementsByTagName
+- Wildcard
+- Procesy, jak uruchomić
+- Ant
+- ResourceBoundle
+- Podobienstwa i roznice JTextArea i JEditorPane
+- JAXB, szczegółowo, coto jak użyć itd
+- Dokładnie o proxy co jest potrzebne, jakie metody, incocation Handler
+- Strumienie(DataOutput,ObjectOutput)
+- synchronized()
+- resource bundle
+- server wysyła hello do klienta
+- nawiązanie połączenia z bazą danych
