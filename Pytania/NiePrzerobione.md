@@ -318,3 +318,48 @@
 - resource bundle
 - server wysyła hello do klienta
 - nawiązanie połączenia z bazą danych
+- napisać funkcje printNames(Connction con) tóra przyjmuje argument connection i wyszukuje w bazie danych imiona
+- blokada wewnętrzna, czy może to być synchronized(New Object), tak chodzi o blokade drobnoziarnistą
+- Wymienić jakie znam kolekcje chodziło o klasy rozszerzające i porównać je
+- Gzip napisać
+   - ForkJoinPool
+   - Parser DOM
+   - Proces który wyszukuje wszystkie pliki w katalogu w którym się znajdujemy
+   - Serializable
+   - JAXB
+   - załadować klasę z bytecode i zwrócić
+   - ? - do czego używamy
+   - HelloServer
+   - Napisać program żeby refleksyjnie wypisywał nazwy metod klasy OutputStream
+   - javadoc
+   - ActionListener jakie metody (ActionEvent)
+   - JNLP
+   - napisać kod który zserializuje obiekt do pliku
+   - porównać jtextarea i jeditorpane
+   - Statement
+   - napisać metode, ktora przyjmuje dowolną liste znumerami i zwraca sumę elementów
+   - jak zrobić żeby jtextarea można było skrolować
+   - ResultSet
+   - Swing i Jbutton
+   - ANT WSZYSTKO
+   - Wszystko o kolekcjach
+   - throw i throws
+   - Url i Urlconnection
+   - wyjątki + jak zrobić żeby finally sie nie wykonywało
+   - Volatile
+   - wypisać elementy za pomocą streama
+   - ThreadPool, jak otrzymać wynik
+   - ANT+JAR JAPIER
+   - refleksyjne wywolanie metody main z clasy main
+   - JFileChooser
+   - ResultSet
+   - Javadoc
+   - LayoutManager
+   - UNARY OPERATOR
+   - SSLServer, certyfikaty
+   - HSQLDB
+   - ResourceBoundle
+   - Wait i Notify
+   - JNLP + JWS
+   - Zserializowanie klasy, zapis i odczyt
+   - 
