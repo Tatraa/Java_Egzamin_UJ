@@ -362,4 +362,22 @@
    - Wait i Notify
    - JNLP + JWS
    - Zserializowanie klasy, zapis i odczyt
-   - 
+   - HSQLDB
+   - swing, dokładnie wszystko co można z tym zrobić
+   - sortowanie stringow po liczbie wystąpien 'a'
+   - napisac program ktory ma zawierac jakas metode ktora wypisuje nazwe wątku, i naprzemiennie raz jeden wątek raz drugi ją uruchamia
+   - predicate
+   - czym się różni ArratList<> od ArratList<Object>
+   - Metoda ktora przyjmuje jako argumenty nazwe i nazweplikuXML i wyciaga z pliku xml ilosc powtorzen pierwszego argumentu.
+   - Cloneable bardzo dokładnie
+   - łączenie się z bazą danych
+   - napisać JFileChooser, który wypisuje na standardowe wyjście zawartość pliku
+   - wszystko o słowie static
+   - ASM
+   - jaxB
+   - Program, który za argumenty bierze url i String (potem zmienił na 3 stringi: id, port, nazwa pliku), łączy się z tym url i wysyła do niego nazwę pliku
+   - JFileChooser; wybierze katalog i wyswietli jego zawartosc 
+   - serializable
+   - sposoby łączenia się z bazą danych
+   - napisać metode ktora przyjmuje liczbę i zwraca sumę cyfr tej liczby też jako inta
+   - swing; jak ustawiamy komponenty
